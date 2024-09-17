@@ -1,6 +1,6 @@
-# Google Ads Dashboard Gebruiken
+# Lead dashboard Gebruiken
 
-Volg de onderstaande stappen om het Google Ads Dashboard op uw lokale machine te installeren en te gebruiken.
+Volg de onderstaande stappen om het Lead dashboard op uw lokale machine te installeren en te gebruiken.
 
 ## Installatie-instructies
 
@@ -9,7 +9,7 @@ Volg de onderstaande stappen om het Google Ads Dashboard op uw lokale machine te
 Clone de repository van GitHub:
 
 ```bash
-git clone https://github.com/henrik561/google-dashboard.git
+git clone https://github.com/henrik561/Leads-Dashboard.git
 ```
 
 ### Stap 2: Navigeer naar de Projectdirectory
@@ -17,7 +17,7 @@ git clone https://github.com/henrik561/google-dashboard.git
 Ga naar de projectdirectory:
 
 ```bash
-cd google-dashboard
+cd Leads-Dashboard
 ```
 
 ### Stap 3: Kopieer het .env Bestand
