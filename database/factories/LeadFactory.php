@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Enums\LeadStatus;
 use App\Models\LeadInfo;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -23,9 +24,9 @@ class LeadFactory extends Factory
             'email' => fake()->email(),
             'phone_number' => fake()->phoneNumber(),
             'conversion_time' => Carbon::now(),
-            'conversion_value' => fake()->randomFloat(2, 1, 100000),
+            'conversion_value' => null,
             'order_id' => fake()->numberBetween(),
-            'status' => 'unqualified',
+            'status' => LeadStatus::UNQUALIFIED->value,
             'lead_info_id' => LeadInfo::factory(),
         ];
     }

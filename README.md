@@ -28,24 +28,24 @@ Kopieer het voorbeeld `.env`-bestand en pas het aan:
 cp .env.example .env
 ```
 
-### Stap 4: Genereer een Applicatiesleutel
-
-Genereer een nieuwe applicatiesleutel:
-
-```bash
-php artisan key:generate
-```
-
-### Stap 5: Configureer de ENV
+### Stap 4: Configureer de ENV
 
 Open het `.env`-bestand en vul de instellingen in:
 
-### Stap 6: Installeer PHP Dependencies
+### Stap 5: Installeer PHP Dependencies
 
 Installeer de PHP-dependencies met Composer:
 
 ```bash
 composer install
+```
+
+### Stap 6: Genereer een Applicatiesleutel
+
+Genereer een nieuwe applicatiesleutel:
+
+```bash
+php artisan key:generate
 ```
 
 ### Stap 7: Installeer Node.js Dependencies
